@@ -42,7 +42,7 @@ header{
     text-decoration: none;
     display: inline-block;
     margin-right: 20px;
-    transition: 0.5s;
+    /*transition: 0.5s;*/
 
 }
 
@@ -140,9 +140,78 @@ section.main{
     line-height: 30px;
 }
 
+section.sobre{
+    padding: 80px 0;
+}
+
+.chamada-sobre{
+    width: 100%;
+    text-align: center;
+     
+}
+
+.chamada-sobre h2{
+    color: #124265;
+    text-transform: uppercase;
+}
+
+.chamada-sobre p{
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0;
+}
+
+.conteudo-sobre{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo-sobre p{
+    width: 48%;
+    margin-right: 2%;
+    color: #444444;
+
+}
+
+.conteudo-sobre span{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.conteudo-sobre i{
+    color: #007bff;
+
+}
+
+section.conquistas{
+    background-color: #f8fbfe;
+    padding: 20px 0;
+
+}
+
+.conquista-single{
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
+    color: #124265;
+
+}
+
+.conquista-single h2{
+    font-size: 30px;
+
+}
+
 @media screen and (max-width: 768px){
     .diferencial-single{
         width: 100%;
         margin-bottom: 20px;
     }
+    .conteudo-sobre p{
+        width:20px;
+        margin: 20px 20px;
+    }
 }
+
+
